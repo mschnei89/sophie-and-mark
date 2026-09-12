@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sophie &amp; Mark</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&display=swap">
+<style>:root{
+  --ground:#f6f2ec; --surface:#fffdfa; --ink:#2b221c; --muted:#76665a; --faint:#a39385;
+  --bark:#5a3e2b; --sand:#d8c1a2; --rule:#e8ddd0;
+  --pine:#46704f; --pine-soft:#e7efe6; --who:#f1e7da; --who-ink:#7a5636;
+  --display:"Young Serif",Georgia,"Times New Roman",serif;
+  --ui:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --ground:#15110e; --surface:#1e1814; --ink:#efe5d8; --muted:#b3a292; --faint:#86776a;
+  --bark:#dcb68b; --sand:#6a543f; --rule:#2f2620;
+  --pine:#93c49b; --pine-soft:#1c2a1f; --who:#2b221b; --who-ink:#d9b48c;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font:16px/1.55 var(--ui);-webkit-font-smoothing:antialiased}
+.wrap{max-width:620px;margin:0 auto;padding:0 20px}
+a{color:var(--bark);text-underline-offset:3px;text-decoration-thickness:1px}
+a:focus-visible{outline:2px solid var(--bark);outline-offset:2px;border-radius:2px}
+
+.top{border-bottom:1px solid var(--rule);background:var(--surface)}
+.top .wrap{padding-top:34px;padding-bottom:26px}
+.couple{margin:0 0 10px;font:600 12px/1 var(--ui);letter-spacing:.18em;text-transform:uppercase;color:var(--bark)}
+h1{margin:0;font:400 32px/1.15 var(--display);text-wrap:balance}
+.when{margin:10px 0 0;color:var(--muted);font-size:15px;text-wrap:balance}
+
+main{padding:22px 20px 8px}
+.cabin{background:var(--pine-soft);border-radius:12px;padding:16px 18px;margin:4px 0 8px}
+.cabin h2{margin:0 0 8px;font:600 13px/1.3 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--pine)}
+.cabin ul{list-style:none;margin:0;padding:0;display:grid;gap:2px;font-size:17px}
+.cabin p{margin:10px 0 0;font-size:14px;color:var(--muted)}
+.cabin.plain{background:var(--surface);border:1px solid var(--rule)}
+.cabin.plain h2{color:var(--bark)}
+
+section{margin-top:26px}
+section h2{position:sticky;top:0;z-index:2;display:flex;align-items:baseline;gap:10px;margin:0;
+  padding:12px 0 9px;background:var(--ground);border-bottom:2px solid var(--sand);
+  font:400 21px/1.2 var(--display);color:var(--bark)}
+section h2 em{display:none;font:700 11px/1 var(--ui);letter-spacing:.12em;text-transform:uppercase;font-style:normal;
+  color:var(--surface);background:var(--pine);padding:5px 8px;border-radius:20px;transform:translateY(-2px)}
+section.today h2 em{display:inline-block}
+ol{list-style:none;margin:0;padding:0}
+.ev{display:grid;grid-template-columns:6.6rem 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.ev:last-child{border-bottom:none}
+.t{font-weight:600;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+.ev.key .t{color:var(--bark)}
+.b{min-width:0}
+.b h3{margin:0;font:500 17px/1.3 var(--ui)}
+.ev.key h3{font-weight:700}
+.loc{display:inline-block;margin-top:2px;font-size:14px;color:var(--muted)}
+a.loc{color:var(--muted);text-decoration:underline;text-decoration-color:var(--sand)}
+.b p{margin:6px 0 0;font-size:15px;max-width:60ch}
+.who{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:600;color:var(--who-ink);
+  background:var(--who);padding:3px 9px;border-radius:20px}
+
+footer{padding:18px 20px 44px;color:var(--muted);font-size:14px}
+footer p{margin:0 0 4px;border-top:1px solid var(--rule);padding-top:16px}
+footer .upd{border:0;padding:0;color:var(--faint);font-size:13px}
+
+@media (max-width:420px){
+  h1{font-size:27px}
+  .ev{grid-template-columns:1fr;gap:3px}
+}
+</style></head><body><header class="top"><div class="wrap"><p class="couple">Sophie &amp; Mark</p><h1>Wedding weekend</h1><p class="when">September 24&ndash;26, 2026 &middot; Vail &amp; Piney River Ranch</p></div></header><main class="wrap"><aside class="cabin plain"><h2>Looking for your itinerary?</h2><p>Your personal link is in the itinerary email we sent you. Can&rsquo;t find it? Just reach out to Sophie or Mark.</p></aside></main></body></html>
